@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+<title>Синкагэ рю: Новости</title>
+<script type="text/JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_nbGroup(event, grpName) { //v6.0
+  var i,img,nbArr,args=MM_nbGroup.arguments;
+  if (event == "init" && args.length > 2) {
+    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+      nbArr[nbArr.length] = img;
+      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+        if (!img.MM_up) img.MM_up = img.src;
+        img.src = img.MM_dn = args[i+1];
+        nbArr[nbArr.length] = img;
+    } }
+  } else if (event == "over") {
+    document.MM_nbOver = nbArr = new Array();
+    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])? args[i+1] : img.MM_up);
+      nbArr[nbArr.length] = img;
+    }
+  } else if (event == "out" ) {
+    for (i=0; i < document.MM_nbOver.length; i++) {
+      img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+  } else if (event == "down") {
+    nbArr = document[grpName];
+    if (nbArr)
+      for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+    document[grpName] = nbArr = new Array();
+    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
+      nbArr[nbArr.length] = img;
+  } }
+}
+//-->
+</script>
+<style type="text/css">
+<!--
+body {
+	background-color: #336699;
+	background-image: url(../images/bg.gif);
+}
+a:link {
+	color: #336699;
+}
+a:visited {
+	color: #666699;
+}
+a:hover {
+	color: #6699CC;
+}
+.style13 {font-size: small; font-family: Verdana, Arial, Helvetica, sans-serif; }
+.style14 {font-size: small; color: #336699; font-family: Verdana, Arial, Helvetica, sans-serif; }
+body,td,th {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.style16 {font-size: small; color: #333333; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; }
+-->
+</style>
+</head>
+
+<body onload="MM_preloadImages('../images/buttons/news1.jpg','../images/buttons/hist1.jpg','../images/buttons/train1.jpg','../images/buttons/gal1.jpg','../images/buttons/links1.jpg')">
+<table width="830" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <!--DWLayoutTable-->
+  <tr>
+    <td height="159" colspan="12" valign="top" bgcolor="#FFFFFF"><img src="../images/news/news.jpg" width="830" height="159" /></td>
+  </tr>
+  <tr>
+    <td height="21" colspan="3" valign="top"><img src="../images/buttons/left.jpg" width="105" height="21" /></td>
+  <td colspan="6" valign="top"><table border="0" cellpadding="0" cellspacing="0">
+    <!--DWLayoutTable-->
+    <tr>
+      <td><a href="news.html" target="_top" onclick="MM_nbGroup('down','group1','news','../images/buttons/news1.jpg',1)" onmouseover="MM_nbGroup('over','news','../images/buttons/news1.jpg','',1)" onmouseout="MM_nbGroup('out')"><img src="../images/buttons/news1.jpg" alt="" name="news" border="0" id="news" onload="" /></a></td>
+        <td><a href="history.html" target="_top" onclick="MM_nbGroup('down','group1','hist','../images/buttons/hist1.jpg',1)" onmouseover="MM_nbGroup('over','hist','../images/buttons/hist1.jpg','',1)" onmouseout="MM_nbGroup('out')"><img src="../images/buttons/hist.jpg" alt="" name="hist" width="103" height="21" border="0" id="hist" onload="" /></a></td>
+        <td><a href="training.html" target="_top" onclick="MM_nbGroup('down','group1','training','../images/buttons/train1.jpg',1)" onmouseover="MM_nbGroup('over','training','../images/buttons/train1.jpg','',1)" onmouseout="MM_nbGroup('out')"><img src="../images/buttons/train.jpg" alt="" name="training" border="0" id="training" onload="" /></a></td>
+        <td><a href="galery.html" target="_top" onclick="MM_nbGroup('down','group1','galery','../images/buttons/gal1.jpg',1)" onmouseover="MM_nbGroup('over','galery','../images/buttons/gal1.jpg','',1)" onmouseout="MM_nbGroup('out')"><img src="../images/buttons/gal.jpg" alt="" name="galery" width="100" height="21" border="0" id="galery" onload="" /></a></td>
+        <td><a href="links.html" target="_top" onclick="MM_nbGroup('down','group1','links','../images/buttons/links1.jpg',1)" onmouseover="MM_nbGroup('over','links','../images/buttons/links1.jpg','',1)" onmouseout="MM_nbGroup('out')"><img src="../images/buttons/links.jpg" alt="" name="links" width="90" height="21" border="0" id="links" onload="" /></a></td>
+      </tr>
+  </table></td>
+    <td colspan="3" valign="top"><img src="../images/buttons/right.jpg" width="200" height="21" /></td>
+  </tr>
+
+  <tr>
+    <td colspan="4" rowspan="2" valign="top"><img src="../images/foot.jpg" width="176" height="130" /></td>
+    <td height="45" colspan="4" align="right" valign="middle" bgcolor="#FFFFFF" class="style16">
+
+Не прикасаясь к подлинной воде и подлинному огню, человек не познает этих вещей. Даже объяснение, основанное на знании книг, не углубит его понимания. Едва ли можно достичь подлинного понимания, опираясь на объяснения других.
+<p align="right">(Такуан Сохо)</p>
+    </td>
+    <td colspan="3" valign="top" bgcolor="#FFFFFF"><img src="../images/flower.jpg" width="190" height="45" /></td>
+    <td width="15" rowspan="7" valign="top" bgcolor="#6699CC"><!--DWLayoutEmptyCell-->&nbsp;</td>
+  </tr>
+
+  <tr>
+    <td width="15" height="85">&nbsp;</td>
+    <td colspan="5" valign="top" bgcolor="#FFFFFF"><!--DWLayoutEmptyCell-->&nbsp;</td>
+    <td width="9">&nbsp;</td>
+  </tr>
+
+  <tr>
+    <td width="15" rowspan="5" valign="top" bgcolor="#6699CC"><!--DWLayoutEmptyCell-->&nbsp;</td>
+    <td width="13" height="6"></td>
+    <td width="77"></td>
+    <td width="71"></td>
+    <td></td>
+    <td width="103"></td>
+    <td width="218"></td>
+    <td colspan="4" rowspan="3" valign="bottom" bgcolor="#FFFFFF"><img src="../images/sam.jpg" width="302" height="192" /></td>
+  </tr>
+
+  <tr>
+    <td height="267"></td>
+    <td colspan="5" valign="top" bgcolor="#FFFFFF" class="style14">
+      <ul>
+      <li><small><i><b>23.01.2014</b></i></small><br>Поздравляем аттестованных по итогам зимнего семинара!</li>
+      <li><small><i><b>31.12.2013</b></i></small><br>Поздравляем всех с наступающим Новым Годом!<br>В разделе "Тренировки" изменено расписание занятий первой группы.<br>Семинар состоится в Москве, подробности на www.sinkage.ru</li>
+      <li><small><i><b>29.03.2012</b></i></small><br>В разделе "Тренировки" поправлено расписание и степени ведущих.</li>
+      <li><small><i><b>21.09.2011</b></i></small><br>В разделе "Тренировки" изменена информация по второй группе.
+                                                                               <br>Благодарим Игоря Переверзева за успешно проведенный семинар в Нижнем Новгороде в августе.</li>
+      <li><small><i><b>22.04.2011</b></i></small><br>В разделе "Тренировки" добавлена информация по второй группе.</li>
+      <li><small><i><b>28.01.2011</b></i></small><br>В разделе "Галерея" добавлены фоты c прошедшего семинара с Игорем Переверзевым в Москве.</li>
+      <li><small><i><b>13.10.2010</b></i></small><br>В разделе "Тренировки" добавлена информация по дополнительному залу!</li>
+      <li><small><i><b>04.08.2010</b></i></small><br>Поздравляем с успешным окончанием семинара в Москве всех его участников!
+                                                                               <br>Прекратились тренировки на ул.Пушкина.</li>
+      <li><small><i><b>24.03.2010</b></i></small><br>В галерею добавлены фото с прошедшего зимнего семинара.</li>
+      <li><small><i><b>15.02.2010</b></i></small><br>Возобновились тренировки на ул.Пушкина.</li>
+      <li><small><i><b>11.01.2010</b></i></small><br>Поздравляем с успешным окончанием семинара всех его участников! Аттестованы почти все. С Новым Годом! С Новой техникой!</li>
+      <li><small><i><b>30.12.2009</b></i></small><br> Внимание начинающим! В новом году тренировки на ул.Пушкина,8 пока не определены. Поэтому со <strong>02.01.2010</strong> всем приходить в СК Динамо по Сб в 10:00.</li>
+      <li><small><i><b>20.12.2009</b></i></small><br><strong> 8, 9, 10 января 2010 года</strong> в Нижнем Новгороде состоится семинар под руководством господина <strong>Наразаки Нобуки</strong>. Время: <strong>10:00-15:00</strong>. Место проведения <strong>СК Динамо</strong>. Взнос участника: 150$.</li>
+      <li> ..<br><strong>6, 7, 8 января 2008 года</strong> в Москве состоится традиционный зимний  семинар под руководством  господина <strong>Наразаки Нобуки</strong>.</li>
+      <li> ..<br><strong>Обратите внимание</strong> на изменения в расписании занятий!!!<br /></li>
+      <li> ..<br><strong>Летний семинар</strong> под руководством сихана российского отделения Маробасикай господина Наразаки Нобуки состоится в <strong>Москве 3-6 августа  </strong> и в <strong>Челябинске 8-10 августа</strong><strong> 2007 года</strong><br />Расписание и место проведения занятий в Москве будет уточнено позже. Взнос участника: до 31 мая 100$,  с 1 июня 150$.</li>
+      <li> ..<br><strong>14 февраля 2007 </strong>состоялся мини-семинар под руководством и при участии легендарного <strong>Игоря Переверзева</strong>. Пропустившие не могут даже представить, что они потеряли...</li>
+      </ul>
+
+<!--
+      <iframe
+          src="/pages/newslist.html" width="100%" height="280" frameborder="no" scrolling="yes">
+      </iframe>
+--> 
+   </td>
+  </tr>
+
+  <tr>
+    <td height="36">&nbsp;</td>
+    <td colspan="3" valign="top"><p><a href="mailto:info@shinkage-ryu.ru" class="style13"><strong>info@shinkage-ryu.ru</strong></a></p></td>
+    <td rowspan="3" valign="bottom" bgcolor="#FFFFFF"><img src="../images/swordBot.jpg" width="218" height="62" /></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="1"></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td height="20" colspan="4" bgcolor="#6699CC"><!--DWLayoutEmptyCell-->&nbsp;</td>
+    <td valign="top" bgcolor="#6699CC"><!--DWLayoutEmptyCell-->&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>
